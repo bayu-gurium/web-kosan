@@ -11,6 +11,7 @@ $data_fasilitas = semuaData("SELECT * FROM tabel_fasilitas");
 ?>
 
 <!-- kode warna -->
+ <!-- color main : #1762ff -->
 <!-- text-orange : #f16127 -->
 <!-- text-hijau : #18e87b -->
 
@@ -36,9 +37,9 @@ $data_fasilitas = semuaData("SELECT * FROM tabel_fasilitas");
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top py-3 shadow-sm bg-warning">
+    <nav class="navbar navbar-expand-lg fixed-top py-3 shadow-sm bg-white">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#beranda" style="color: #f16127;">MAINTENANCE WEBSITE</a>
+            <a class="navbar-brand fw-bold" href="#beranda" style="color: #1762ff;">MAINTENANCE WEBSITE</a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,14 +59,14 @@ $data_fasilitas = semuaData("SELECT * FROM tabel_fasilitas");
     <!-- section 1 -->
     <section id="beranda" class="bg-light py-2">
         <div class="container">
-            <div class="row align-items-center" style="height: 100vh;">
-                <div class="col-lg-6">
-                    <h6>Selamat Datang !!</h6>
-                    <h1 style="color: #f16127;">Kosan Batak</h1>
+            <div class="row align-items-center mt-5 mt-md-0" style="height: 100vh;">
+                <div class="col-lg-6 col-md-10 mt-5 mt-md-0 p-3 p-md-0">
+                    <h6>Selamat Datang 👋</h6>
+                    <h1 style="color: #1762ff;">Kosan NB</h1>
                     <h4>Tinggal di Tempat yang Tepat, dengan Harga yang Pas !</h4>
 
                     <!-- card -->
-                    <div class="card shadow bg-warning-subtle border-0 p-2 my-2 mt-3">
+                    <div class="card shadow bg-warning-subtle border-0 p-2 my-2 mt-3 d-none d-md-flex">
                         <div class="row text-center">
                             <div class="col-4">
                                 <h6>Total Kamar</h6>
@@ -82,8 +83,8 @@ $data_fasilitas = semuaData("SELECT * FROM tabel_fasilitas");
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 d-lg-flex d-none">
-                    <img src="img/heero-1.png" class="img-fluid text-end rounded mt-5">
+                <div class="col-lg-6 d-lg-flex">
+                    <img src="img/thumbnail-img.jpg" class="img-fluid text-end rounded mt-5">
                 </div>
             </div>
         </div>
