@@ -1,13 +1,12 @@
 <!-- <?php
 require_once 'vendor/autoload.php'; // Pastikan path autoload Composer benar
-include 'config-secret.php';
 
 use Twilio\Rest\Client;
 use Twilio\Rest\Content\V1\TwilioCallToAction;
 
 // Ganti dengan SID dan Token yang Anda dapatkan dari Twilio
-$sid =  '';
-$token = '';
+$sid =  ''; // SID di dalam file RAR sid_&_tokken
+$token = ''; // TOKKEN di dalam file RAR sid_&_tokken
 // $twilioSid = getenv('TWILIO_SID');
 // $authToken = getenv('TWILIO_AUTH_TOKEN');
 
