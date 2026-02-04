@@ -8,13 +8,9 @@ $data_kamar = semuaData("SELECT * FROM tabel_kamar");
 // query data Fasilitas
 $data_fasilitas = semuaData("SELECT * FROM tabel_fasilitas");
 
-
-
-
 ?>
 
 <!-- kode warna -->
-
 <!-- text-orange : #f16127 -->
 <!-- text-hijau : #18e87b -->
 
@@ -40,9 +36,9 @@ $data_fasilitas = semuaData("SELECT * FROM tabel_fasilitas");
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top py-3 shadow-sm bg-white">
+    <nav class="navbar navbar-expand-lg fixed-top py-3 shadow-sm bg-warning">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#beranda" style="color: #f16127;">Kos Batak</a>
+            <a class="navbar-brand fw-bold" href="#beranda" style="color: #f16127;">MAINTENANCE WEBSITE</a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -193,7 +189,7 @@ $data_fasilitas = semuaData("SELECT * FROM tabel_fasilitas");
     <section class="py-2 bg-light">
         <div class="container mt-5">
             <div class="row align-items-center mt-5">
-                <small>Desain web by <a href="">Esau Faumasa</a></small>
+                <small>Web Buid with ❤️ by <a href="">Bayu Gurium</a></small>
             </div>
         </div>
     </section>
