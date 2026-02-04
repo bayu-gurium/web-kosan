@@ -1,4 +1,2 @@
 config-secret.php
 
-// define('TWILIO_SID', 'AC9eb36bc1626bd4160a81b412543497f1');
-// define('TWILIO_TOKEN', '68beb93494e4daf90ad991999e3af620');

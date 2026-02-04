@@ -6,8 +6,8 @@ use Twilio\Rest\Client;
 use Twilio\Rest\Content\V1\TwilioCallToAction;
 
 // Ganti dengan SID dan Token yang Anda dapatkan dari Twilio
-$sid = TWILIO_SID;
-$token = TWILIO_TOKEN
+$sid =  '';
+$token = '';
 // $twilioSid = getenv('TWILIO_SID');
 // $authToken = getenv('TWILIO_AUTH_TOKEN');
 
